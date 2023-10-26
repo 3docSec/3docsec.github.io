@@ -37,7 +37,7 @@ By searching for, and finally resolving the issues that made my happy path work 
 > 💡 _tip #2: start by quickly iterating on a few "happy path" tests; then, use tests to experiment with more complex and unusual scenarios_
 
 ## Reason 1: the spoon
-So, actually, by setting up my happy path test, I did not really test much about the code; the happy path itself is something of course every developer of the project focused on already; it's of little value for the audit.
+So, actually, by setting up my happy path test, I did not really test much about the code; the happy path itself is something of course every developer of the project focused on already - it's often of little value for the audit.
 
 What I really did was testing myself, my understanding, my ability to set up the project and to have reasonable expectations about its behavior. And during my iterations to have the happy path working I refined all of these.
 
