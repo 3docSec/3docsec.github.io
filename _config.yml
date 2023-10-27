@@ -2,7 +2,7 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
 title: 3DOↃ Security
-description: Independent security researcher, active on Code4rena and Immunefi
+description: Independent security researcher & competitive auditor, active on Code4rena and Immunefi
 show_downloads: false
 github:
   is_project_page: false

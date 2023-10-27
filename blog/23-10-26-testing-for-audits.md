@@ -19,7 +19,7 @@ However, seeing how some code works "in action" is a powerful tool to understand
 
 My methodology is to focus on one functionality at the time; for it I would:
 - figure out all the entry points that deal with it
-- figure out and implement the most basic set up that would make it function
+- figure out and implement the most basic setup that would make it function
 - call the functions that relate to it; the aim is to have a working "happy path"
 
 The most important part in this process are failures. Failures are extremely valuable, because after a failure I start to debug, typically looking for answers to the following questions:
@@ -39,11 +39,13 @@ By investigating, and finally resolving the issues that made my happy path work 
 ## Reason 1: the spoon
 So, actually, by setting up my happy path test, I did not really test much about the code; the happy path itself is something of course every developer of the project tested already - it's often of little value for the audit.
 
-What I really did was testing myself, my understanding, my ability to set up the project and to have reasonable expectations about its behavior. And during my iterations to have the happy path working, I was in fact refining all of these.
+What I really did was testing myself, my understanding, my ability to set the project up and to have reasonable expectations about its behavior. And during my iterations to have the happy path working, I was in fact refining all of these.
 
 > 💡 _tip #3: do not look for shortcuts in your tests: the goal is **not** looking for vulnerabilities in the project, but rather surfacing & filling gaps in your own understanding of it_
 
-![The testing spoon](img/spoon.jpeg)
+<p align="center">
+  <img src="img/spoon.jpeg" alt="The testing spoon"/>
+</p>
 
 ## Reason 2: the blind spots
 Another reason for writing your own tests is that very often the people who write tests are the same who wrote the code in the first place. This means that the blind spots, or the situations that are not properly anticipated, are the same for the code (which may misbehave) and the tests (which may not reproduce these given situations).
@@ -57,7 +59,7 @@ Not all of my auditing is around testing. For example, in a one-week audit, I ty
 
 Once I find something that *could be* a bug, having a testing framework in place helps me figure out if it's a real issue or not in minutes; and if it *is* an issue, I already have 90% of what is needed for a runnable PoC to include in my report.
 
-As it applied for the general understanding of the audited code, using actual tests to write a PoC consolidate your understanding of, and confidence in, your findings.
+As it applied for the general understanding of the audited code, using actual tests to write a PoC consolidates your understanding of, and confidence in, your findings.
 
 > 💡 _tip #5: time spent writing your own tests will also pay back with quicker verification and solid proving of your findings_
 
