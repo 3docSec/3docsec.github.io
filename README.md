@@ -49,6 +49,11 @@ Below a curated collection of my most relevant contributions to Web3 security: p
 ## Blog posts
 - 2023-10-26 [Testing for audits: there is no spoon](blog/23-10-26-testing-for-audits.md)
 
+## CTF challenges authored
+- [Proof of work @ ONLYPWNER.xyz](https://onlypwner.xyz/challenges/13)
+- [Liquid Staking @ ONLYPWNER.xyz](https://onlypwner.xyz/challenges/15)
+- [Seal 911 @ ONLYPWNER.xyz](https://onlypwner.xyz/challenges/16)
+
 [high]: https://img.shields.io/badge/-HIGH-b02319 "HIGH"
 [medium]: https://img.shields.io/badge/-MEDIUM-orange "MEDIUM"
 [low]: https://img.shields.io/badge/-LOW-FFD700 "LOW"
