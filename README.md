@@ -1,6 +1,18 @@
+## Ranking
+
+#1 in the rolling 365-days leaderboard on Code4rena with team RadiantLabs:
+![image](blog/img/c4-365.png)
+
 ## Portfolio
 
-Below a curated collection of my most relevant contributions to Web3 security: public contests and private audits whose clients kindly agreed to share reports publicly.
+Below a curated collection of my most relevant contributions to Web3 security: public contests and private audits that can be shared publicly:
+- **4/25 Alluvial SMS-lite (Staking, Solidity)** - Firm audit as senior contractor at [Certora Inc.](https://www.certora.com/)
+- **3/25 Polygon (Solidity)** - Firm audit as senior contractor at [Certora Inc.](https://www.certora.com/)
+- **2/25 Silo vault (Solidity)** - Firm audit as senior contractor at [Certora Inc.](https://www.certora.com/)
+- **1/25 Nibiru mitigation review (Cosmos SDK - Go)** - Firm audit as contractor at [Zenith Security](https://www.zenith.security/)
+- **1/25 Initia Rollup Modules (Cosmos SDK - Go)** - [🏅1st place in team RadiantLabs](https://code4rena.com/audits/2025-01-initia-rollup-modules), [report](https://code4rena.com/reports/2025-01-initia-rollup-modules)
+- **12/24 Alluvial SMS (Staking, Solidity)** - Firm audit as senior contractor at [Certora Inc.](https://www.certora.com/)
+- **11/24 Nibiru chain (Cosmos SDK - Go)** - [4th place in solo](https://code4rena.com/audits/2024-11-nibiru), [report](https://code4rena.com/reports/2024-11-nibiru)
 - **10/24 Kakarot (L2 - Cairo0)** - [🏅1st place in team RadiantLabs](https://code4rena.com/audits/2024-09-kakarot), [report](https://code4rena.com/reports/2024-09-kakarot)
 - **8/24 Reserve Core (DeFi - Go)** - [🏅1st place in team RadiantLabs](https://code4rena.com/audits/2024-07-reserve-core), [report](https://code4rena.com/reports/2024-07-reserve)
 - **7/24 Optimism Superchain (L2 - Solidity)** - [🏅1st place in team RadiantLabs](https://code4rena.com/audits/2024-07-optimism-superchain), [report](https://code4rena.com/reports/2024-07-optimism)
